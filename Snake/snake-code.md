@@ -127,24 +127,6 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.blueGrey,
       body: Column(
         children: <Widget>[
-
-          Column(
-            children:[
-              // Positioned(bottom: 20, right: 20,
-              //     child: ElevatedButton(onPressed: (){direction = 'right';}, child: Text('->'))),
-              // Positioned(bottom: 30, right: 20,
-              //     child: ElevatedButton(onPressed: (){direction = 'right';}, child: Text('<-'))),
-              // Positioned(bottom: 40, right: 20,
-              //     child: ElevatedButton(onPressed: (){direction = 'right';}, child: Text('^'))),
-              // Positioned(bottom: 50, right: 20,
-              //     child: ElevatedButton(onPressed: (){direction = 'right';}, child: Text('X'))),
-
-       //     ElevatedButton(onPressed: (){direction = 'right';}, child: Text('->',),),
-       //     ElevatedButton(onPressed: (){direction = 'left';}, child: Text('<-')),
-       //     ElevatedButton(onPressed: (){direction = 'up';}, child: Text('^')),
-       //     ElevatedButton(onPressed: (){direction = 'down';}, child: Text('X')),
-            ],
-          ),
           Expanded(child: GestureDetector(
               onVerticalDragUpdate: (details){
                 if(direction != 'up' && details.delta.dy > 0){
