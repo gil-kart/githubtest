@@ -1,3 +1,5 @@
+# Snake
+
 So this is my starting screen for my snake app.
 
 ![1](https://user-images.githubusercontent.com/73134488/119010064-5c545700-b99c-11eb-899a-9ace7c820c62.jpg)
